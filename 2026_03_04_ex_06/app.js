@@ -1,0 +1,10 @@
+let frase = 'Estou aprendendo JavaScript!'
+let frase2 = 'Estou aprendendo JavaScript!'
+let frase3 = 'Estou aprendendo JavaScript!'
+let frase4 = 'Estou aprendendo JavaScript!'
+let frase5 = 'Estou aprendendo JavaScript!'
+document.getElementById('resultado').innerHTML = frase
+document.getElementById('resultado2').innerHTML = frase2
+document.getElementById('resultado3').innerHTML = frase3
+document.getElementById('resultado4').innerHTML = frase4
+document.getElementById('resultado5').innerHTML = frase5
