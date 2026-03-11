@@ -1,0 +1,13 @@
+let num1 = parseFloat(prompt('Digite um número: '))
+let num2 = parseFloat(prompt('Digite outro número: '))
+let soma = num1 + num2
+let sub = num1 - num2
+let multi = num1*num2
+let divisao = num1/num2
+let media = (num1+ num2)/2
+document.getElementById('resultado').innerHTML = `Os números digitados foram ${num1} e ${num2}.`
+document.getElementById('resultado2').innerHTML = `A soma dos números ${num1} e ${num2} é ${soma}.`
+document.getElementById('resultado3').innerHTML = `A subtração dos números ${num1} e ${num2} é ${sub}.`
+document.getElementById('resultado4').innerHTML = `A multiplicação dos números ${num1} e ${num2} é ${multi}.`
+document.getElementById('resultado5').innerHTML = `A divisão dos números ${num1} e ${num2} é ${divisao}.`
+document.getElementById('resultado6').innerHTML = `A média dos números ${num1} e ${num2} é ${media}.`
