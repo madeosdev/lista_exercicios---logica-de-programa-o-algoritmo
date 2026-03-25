@@ -1,0 +1,10 @@
+let resultado = document.getElementById('resultado')
+let numero = parseFloat(prompt('Digite um número: '))
+let quadrado = Math.pow(numero, 2)
+resultado.innerHTML = `O número ${numero} elevado ao quadrado é ${quadrado}.<br>`
+let cubo = Math.pow(numero, 3)
+resultado.innerHTML += `O número ${numero} elevado ao cubo é ${cubo}.<br>`
+let quarta = Math.pow (numero, 4)
+resultado.innerHTML += `O número ${numero} elevado a quarta é ${quarta}.<br>`
+let quinta = Math.pow(numero, 5)
+resultado.innerHTML += `O número ${numero} elevado ao quinta é ${quinta}.<br>`
