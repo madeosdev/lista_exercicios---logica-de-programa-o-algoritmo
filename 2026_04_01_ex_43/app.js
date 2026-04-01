@@ -1,0 +1,9 @@
+let resultado = document.getElementById('resultado')
+let valor_cemkw = 1621*(1/7)
+let qntd_kw = parseFloat(prompt('Quantos Kw foram gastos em uma residência(mês)? '))
+let valor_kw = valor_cemkw/100
+let total_reais = qntd_kw*valor_kw
+let total_descontado = total_reais - (total_reais*0.1)
+let formatado_total = new Intl.NumberFormat('pt-BR', {style:'currency', currency:'BRL'}).format(total_reais)
+let format_descontado = new Intl.NumberFormat('pt-BR', {style:'currency', currency:'BRL'}).format(total_descontado)
+resultado.innerHTML = `O valor total a ser pago é ${formatado_total}. Com desconto de 10% é ${format_descontado}.`
