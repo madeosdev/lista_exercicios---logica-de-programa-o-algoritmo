@@ -1,4 +1,4 @@
-Exericicos de Revisão - Algoritmo & Lógica de Programação
+Exercicios de Revisão - Algoritmo & Lógica de Programação
 69 - b) CORRETO
 70 - a) CORRETO
 71 - a) CORRETO
