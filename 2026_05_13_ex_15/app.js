@@ -1,12 +1,11 @@
 let div = document.getElementById('resultado')
-let palavras = ['sarar', 'morrer', 'doer', 'morar', 'contar', 'sofrer', 'enzo', 'soltar']
 let trecho = 'ar'
-
+let palavras = ['arara', 'carro', 'barco', 'casa', 'gato', 'arroz', 'cachorro', 'sapato', 'cavalo']
+let palavras_ar = []
 
 for (let i = 0; i < palavras.length; i++) {
-    if (palavras[i].includes(trecho)) {
-        div.innerHTML += `Palavra: ${palavras[i]}<br>Possui 'ar': Sim`
-    } else {
-         div.innerHTML += `Palavra: ${palavras[i]}<br>Possui 'ar': Não`
+    if (palavras[i].indexOf(trecho) !== -1) {
+        palavras_ar.push(palavras[i])
     }
 }
+div.innerHTML = palavras_ar.join(', ')
